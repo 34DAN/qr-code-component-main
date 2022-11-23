@@ -2,24 +2,29 @@
     padding: 0;
     margin: 0;
 }
+
 body, html {
     min-width: 100%;
     min-height: 100vh;
 }
+
 body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 h3, p {
     font-family: 'Outfit', sans-serif;
     margin: 17px 0px ;
 }
+
 h3 {
     color: hsl(218, 44%, 22%);
     font-size: 22px;
 }
+
 p {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
@@ -32,10 +37,12 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 footer {
     position: absolute;
     bottom: 10px;
 }
+
 .panel {
     max-width: 375px;
     padding: 15px;
@@ -43,16 +50,17 @@ footer {
     background-color: white;
     border-radius: 25px;
 }
+
 .panel > img {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 20px;
 }
+
 .text-block {
     margin: 0px 25px 40px;
     text-align: center;
 }
-
 
 
 
